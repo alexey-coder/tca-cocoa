@@ -1,0 +1,27 @@
+{
+  "name": "ConcurrencyExtras",
+  "version": "1.0.0",
+  "summary": "Reliably testable Swift concurrency.",
+  "description": "Reliably testable Swift concurrency.",
+  "homepage": "https://www.pointfree.co",
+  "license": {
+    "type": "MIT",
+    "file": "swift-concurrency-extras/LICENSE"
+  },
+  "authors": {
+    "Point-Free": "support@pointfree.co"
+  },
+  "platforms": {
+    "ios": "14.0",
+    "osx": "10.15",
+    "watchos": "6.0",
+    "tvos": "13.0"
+  },
+  "swift_versions": "5.7",
+  "source": {
+    "git": "https://github.com/pointfreeco/swift-concurrency-extras",
+    "tag": "1.0.0"
+  },
+  "source_files": "swift-concurrency-extras/Sources/**/*.swift",
+  "swift_version": "5.7"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Clocks",
+  "version": "1.0.0",
+  "summary": "⏰ A few clocks that make working with Swift concurrency more testable and more versatile.",
+  "description": "⏰ A few clocks that make working with Swift concurrency more testable and more versatile.",
+  "homepage": "https://www.pointfree.co/episodes/ep87-the-case-for-case-paths-introduction",
+  "license": {
+    "type": "MIT",
+    "file": "swift-clocks/LICENSE"
+  },
+  "authors": {
+    "Point-Free": "support@pointfree.co"
+  },
+  "platforms": {
+    "ios": "14.0",
+    "osx": "10.15",
+    "watchos": "6.0",
+    "tvos": "13.0"
+  },
+  "swift_versions": "5.7",
+  "source": {
+    "git": "https://github.com/pointfreeco/swift-case-paths.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "swift-clocks/Sources/**/*.swift",
+  "dependencies": {
+    "XCTestDynamicOverlay": [
+      "<= 1.0"
+    ],
+    "AsyncAlgorithms": [
+      "<= 0.0.3"
+    ],
+    "ConcurrencyExtras": [
+      "<= 1.0"
+    ]
+  },
+  "swift_version": "5.7"
+}
