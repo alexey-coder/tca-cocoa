@@ -20,5 +20,5 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target = "13.0"
   spec.swift_version = '5.7'
   
-  spec.source = { :git => "https://github.com/pointfreeco/swift-concurrency-extras", :tag => "#{spec.version}" }
+  spec.source = { :git => "https://github.com/pointfreeco/swift-concurrency-extras.git", :tag => "#{spec.version}" }
 end
