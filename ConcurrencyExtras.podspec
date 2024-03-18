@@ -21,5 +21,4 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.7'
   
   spec.source = { :git => "https://github.com/pointfreeco/swift-concurrency-extras", :tag => "#{spec.version}" }
-  spec.source_files = "swift-concurrency-extras/Sources/**/*.swift"
 end

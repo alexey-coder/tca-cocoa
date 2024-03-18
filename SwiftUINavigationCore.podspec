@@ -22,7 +22,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.7'
   
   spec.source = { :git => "https://github.com/pointfreeco/swiftui-navigation", :tag => "#{spec.version}" }
-  spec.source_files = "swiftui-navigation/Sources/SwiftUINavigationCore/**/*.swift"
   
   spec.dependency "CustomDump", "<= 1.0"
   spec.dependency "CasePaths", "<= 1.0"

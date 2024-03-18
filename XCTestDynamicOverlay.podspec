@@ -21,5 +21,4 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.7'
   
   spec.source = { :git => "https://github.com/pointfreeco/xctest-dynamic-overlay.git", :tag => "#{spec.version}" }
-  spec.source_files = "xctest-dynamic-overlay/Sources/**/*.swift"
 end

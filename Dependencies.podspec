@@ -22,7 +22,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.7'
   
   spec.source = { :git => "https://github.com/pointfreeco/swift-dependencies", :tag => "#{spec.version}" }
-  spec.source_files = "swift-dependencies/Sources/Dependencies/**/*.swift"
   
   spec.dependency "CombineSchedulers", "<= 1.0"
   spec.dependency "XCTestDynamicOverlay", "<= 1.0"

@@ -21,7 +21,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.7'
   
   spec.source = { :git => "https://github.com/apple/swift-async-algorithms.git", :tag => "#{spec.version}" }
-  spec.source_files = "swift-async-algorithms/Sources/AsyncAlgorithms/**/*.swift"
 
   spec.dependency "Collections", "~> 1.0.3"
 end

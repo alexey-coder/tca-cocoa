@@ -22,7 +22,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.7'
   
   spec.source = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "#{spec.version}" }
-  spec.source_files = "swift-composable-architecture/Sources/ComposableArchitecture/**/*.swift"
   
   spec.dependency "Dependencies", "<= 1.0"
   spec.dependency "CasePaths", "<= 1.0"

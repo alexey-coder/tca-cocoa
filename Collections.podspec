@@ -21,7 +21,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.7'
   
   spec.source = { :git => "https://github.com/apple/swift-collections.git", :tag => "#{spec.version}" }
-  spec.source_files = "swift-collections/Sources/Collections/**/*.swift"
   
   spec.dependency "OrderedCollections"
   spec.dependency "DequeModule"
