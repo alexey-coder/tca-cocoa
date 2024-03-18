@@ -8,7 +8,11 @@ Pod::Spec.new do |spec|
   DESC
   
   spec.homepage = "https://www.pointfree.co/collections/composable-architecture"
-  spec.license = { :type => "MIT", :file => "swift-composable-architecture/LICENSE" }
+  spec.license = { :type => "MIT", :text => 
+    <<-LICENSE
+        Copyright 2021 Permission is granted
+    LICENSE
+  }
   spec.author = { "Point-Free" => "support@pointfree.co" }
  
   spec.ios.deployment_target = "14.0"
@@ -17,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target = "13.0"
   spec.swift_version = '5.7'
   
-  spec.source = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "#{spec.version}" }
+  spec.source = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "1.9" }
   spec.source_files = "swift-composable-architecture/Sources/ComposableArchitecture/**/*.swift"
   
   spec.dependency "Dependencies", "<= 1.0"

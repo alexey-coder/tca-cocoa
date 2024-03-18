@@ -8,7 +8,11 @@ Pod::Spec.new do |spec|
   DESC
   
   spec.homepage = "https://www.pointfree.co/collections/composable-architecture"
-  spec.license = { :type => "MIT", :file => "swift-dependencies/LICENSE" }
+  spec.license = { :type => "MIT", :text => 
+    <<-LICENSE
+        Copyright 2021 Permission is granted
+    LICENSE
+  }
   spec.author = { "Point-Free" => "support@pointfree.co" }
  
   spec.ios.deployment_target = "14.0"

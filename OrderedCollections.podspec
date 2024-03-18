@@ -7,7 +7,11 @@ Pod::Spec.new do |spec|
   DESC
 
   spec.homepage = "https://github.com/apple/swift-collections"
-  spec.license = { :type => "Apache-2.0 License", :file => "swift-collections/LICENSE.txt" }
+  spec.license = { :type => "MIT", :text => 
+    <<-LICENSE
+        Copyright 2021 Permission is granted
+    LICENSE
+  }
   spec.author = { "Apple" => "" }
   
   spec.ios.deployment_target = "14.0"
