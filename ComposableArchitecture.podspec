@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.tvos.deployment_target = "13.0"
   spec.swift_version = '5.7'
   
-  spec.source = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "1.9" }
+  spec.source = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "#{spec.version}" }
   spec.source_files = "swift-composable-architecture/Sources/ComposableArchitecture/**/*.swift"
   
   spec.dependency "Dependencies", "<= 1.0"
