@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "CasePaths"
-  spec.version = "1.2.0"
+  spec.version = "1.0.0"
   spec.summary = "🧰 Case paths bring the power and ergonomics of key paths to enums!"
   spec.description = <<-DESC
   Case paths bring the power and ergonomics of key paths to enums!
